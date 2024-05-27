@@ -42,7 +42,7 @@ const About1 = ({ clientHeight }) => {
   }, [quoteRef, targetSection]);
 
   return (
-    <section className="w-full relative select-none" ref={targetSection}>
+    <section className="w-full relative select-none text-left" ref={targetSection}>
       <div
         className={`${
           clientHeight > 650 ? "pt-28 pb-16" : "pt-80 pb-72"
@@ -50,16 +50,25 @@ const About1 = ({ clientHeight }) => {
       >
         <h1
           ref={quoteRef}
-          className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
+          className="font-medium text-[2.00rem] md:text-6xl lg:text-[3.24rem] text-center flex items-center"
         >
+          <div>
           <span className="about-1 leading-tight">
             I&apos;m a passionate Engineer who&apos;s focused on building
-            scalable and performant apps.{" "}
+            scalable and performant apps.{" "}<br/>
+          
           </span>
           <span className="about-2 leading-tight">
             I take responsibility to craft a good user experience using modern
             frontend architecture.{" "}
+            
           </span>
+          </div>
+          <img 
+            src="/portfolio.jpg/" 
+            alt="Description of image" 
+            className="mr-4 w-20 h-20 md:w-40 md:h-40 lg:w-60 lg:h-60 "
+          />
         </h1>
       </div>
     </section>

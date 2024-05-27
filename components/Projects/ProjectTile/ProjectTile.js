@@ -75,7 +75,7 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
         </h1>
         <div
           className={`
-            ${styles.techIcons} w-1/2 h-full absolute left-24 top-0 sm:flex items-center hidden
+            ${styles.techIcons} w-1/2 h-full absolute left-30 top-0 sm:flex items-center hidden
           `}
         >
           <div className="flex flex-col pb-8">
