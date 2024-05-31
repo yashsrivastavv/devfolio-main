@@ -1,5 +1,5 @@
 import emailjs from "@emailjs/browser";
-
+// import .env.local
 const mail = ({ name, email, message }) =>
   emailjs.send(
     process.env.NEXT_PUBLIC_SERVICE_ID,
@@ -8,7 +8,7 @@ const mail = ({ name, email, message }) =>
     {
       publicKey: process.env.NEXT_PUBLIC_USER_ID,
       limitRate: {
-        throttle: 10000, // 10s
+        throttle: 10000, 
       },
     }
   );
