@@ -3,7 +3,7 @@ export const METADATA = {
   title: "Portfolio | Adarsh Shukla",
   description:
     "Adarsh Shukla is a passionate Software Engineer specializing in AL & ML,adept at transforming complex concepts into impactful solutions.",
-  siteUrl: "https://www.shubhporwal.me/",
+  siteUrl: "https://adarshshukla.netlify.app/",
   twitterHandle: "@Adarsh_8100",
   keywords: [
     "Adarsh Shukla",
