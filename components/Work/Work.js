@@ -10,33 +10,15 @@ const Work = ({ isDesktop }) => {
 
   const tabItems = useMemo(
     () => [
+      
+      
       {
-        title: "Dukaan",
-        value: "dukaan",
+        title: "Pranveer Singh Institute of Technology",
+        value: "PSIT",
         content: (
           <StickyScroll
             isDesktop={isDesktop}
-            contentItems={WORK_CONTENTS.DUKAAN}
-          />
-        ),
-      },
-      {
-        title: "Aviate",
-        value: "Aviate",
-        content: (
-          <StickyScroll
-            isDesktop={isDesktop}
-            contentItems={WORK_CONTENTS.AVIATE}
-          />
-        ),
-      },
-      {
-        title: "Spacenos",
-        value: "spacenos",
-        content: (
-          <StickyScroll
-            isDesktop={isDesktop}
-            contentItems={WORK_CONTENTS.SPACENOS}
+            contentItems={WORK_CONTENTS.PSIT}
           />
         ),
       },
@@ -78,14 +60,12 @@ const Work = ({ isDesktop }) => {
       <div className="section-container py-16 flex flex-col justify-center">
         <div className="flex flex-col work-wrapper">
           <div className="flex flex-col">
-            <p className="uppercase tracking-widest text-gray-light-1 seq">
-              WORK
-            </p>
+            
             <h1 className="text-6xl mt-2 font-medium text-gradient w-fit seq">
-              Experience
+              Education
             </h1>
             <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 seq">
-              A quick recap of where I&apos;ve worked.{" "}
+              A quick recap of where I&apos;ve studied.{" "}
             </h2>
           </div>
           <Tabs tabItems={tabItems} />
