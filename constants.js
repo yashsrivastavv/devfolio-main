@@ -15,7 +15,7 @@ export const METADATA = {
     "Folio",
   ].join(", "),
   image:
-    "https://res.cloudinary.com/dzb14xkgf/image/upload/v1717182892/Screenshot_56_uercw0.png",
+    "https://res.cloudinary.com/dzb14xkgf/image/upload/v1717218549/preview_dnygjq.png",
   language: "English",
 };
 
@@ -43,9 +43,9 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
-  "I build things for the web",
-  "I create aesthetic and modern apps",
+  "A pragmatic Machine Learning Aficionado",
+  "I innovate machines.",
+  "I create intelligent systems.",
 ];
 
 export const SOCIAL_LINKS = [
