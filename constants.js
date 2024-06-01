@@ -3,7 +3,7 @@ export const METADATA = {
   title: "Portfolio | Adarsh Shukla",
   description:
     "Adarsh Shukla is a passionate Software Engineer specializing in AL & ML,adept at transforming complex concepts into impactful solutions.",
-  siteUrl: "https://adarshshukla.netlify.app/",
+  siteUrl: "https://www.adarshshukla.netlify.app/",
   twitterHandle: "@Adarsh_8100",
   keywords: [
     "Adarsh Shukla",
@@ -15,8 +15,9 @@ export const METADATA = {
     "Folio",
   ].join(", "),
   image:
-    "/preview.png",
+    "https://res.cloudinary.com/dzb14xkgf/image/upload/v1717218549/preview_dnygjq.png",
   language: "English",
+  themeColor: "#000000",
 };
 
 export const MENULINKS = [
@@ -33,8 +34,8 @@ export const MENULINKS = [
     ref: "projects",
   },
   {
-    name: "Work",
-    ref: "work",
+    name: "Education",
+    ref: "education",
   },
   {
     name: "Contact",
@@ -43,7 +44,7 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Machine Learning Aficionado",
+  "A pragmatic Machine Learning Aficionado.",
   "I innovate machines.",
   "I create intelligent systems.",
 ];
